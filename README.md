@@ -1,7 +1,9 @@
+
 # Técnico em Desenvolvimento de Sistemas - Proz
 
 
-Exercícios de Java do professor Pedro Rafante
+Exercícios de Java do professor *Pedro Rafante*
+https://github.com/pedrorafante 
 
 ## Stack utilizada
 
