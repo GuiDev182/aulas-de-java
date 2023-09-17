@@ -7,8 +7,6 @@ valor2*quant2)*(IPI/100 + 1) */
 public class porcentagemIpi {
     public static void main(String[] args) {
         double porcentagemIpi = 0.0;
-        int codigoPeca1 = 0;
-        int codigoPeca2 = 0;
         double valorUnitarioPeca1 = 0.0;
         double valorUnitarioPeca2 = 0.0;
         int quantidadePeca1 = 0;
@@ -16,10 +14,8 @@ public class porcentagemIpi {
         double valorTotal = 0.0;
 
         porcentagemIpi = Double.parseDouble(System.console().readLine("Digite a porcentagem do IPI: "));
-        codigoPeca1 = Integer.parseInt(System.console().readLine("Digite o código da peça 1: "));
         valorUnitarioPeca1 = Double.parseDouble(System.console().readLine("Digite o valor unitário da peça 1: "));
         quantidadePeca1 = Integer.parseInt(System.console().readLine("Digite a quantidade da peça 1: "));
-        codigoPeca2 = Integer.parseInt(System.console().readLine("Digite o código da peça 2: "));
         valorUnitarioPeca2 = Double.parseDouble(System.console().readLine("Digite o valor unitário da peça 2: "));
         quantidadePeca2 = Integer.parseInt(System.console().readLine("Digite a quantidade da peça 2: "));
 
